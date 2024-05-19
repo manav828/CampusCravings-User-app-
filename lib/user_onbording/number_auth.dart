@@ -264,7 +264,7 @@ class _Number_AuthState extends State<Number_Auth> {
                     ),
                     child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                            primary: Colors.transparent,
+                            backgroundColor: Colors.transparent,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10))),
                         onPressed: () async {

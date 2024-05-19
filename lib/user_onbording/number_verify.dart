@@ -48,8 +48,8 @@ class _Number_verifyState extends State<Number_verify> {
           .child('Users')
           .child(context.read<UserProvaider>().getUserName!)
           .child('/' + context.read<UserProvaider>().getUserName!);
-      uploadTask =
-          ref.putFile(File(context.read<UserProvaider>().getImage.toString()));
+      uploadTask = ref
+          .putFile(File(context.read<UserProvaider>().getUserImage.toString()));
       await uploadTask.whenComplete(() => null);
       imageUrl = await ref.getDownloadURL();
       print('Image URL => ' + imageUrl);
@@ -219,7 +219,7 @@ class _Number_verifyState extends State<Number_verify> {
                   ),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.transparent,
+                      backgroundColor: Colors.transparent,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
