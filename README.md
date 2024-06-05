@@ -3,7 +3,7 @@
 
 
 
-## 🔗 Demo Link of Admin App
+## 🔗 Demo Link of User App
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/manav-satasiya-m80_campuscravings-campusfoodie-foodordering-activity-7113754358927781888-SnUK/?utm_source=share&utm_medium=member_desktop)
 
